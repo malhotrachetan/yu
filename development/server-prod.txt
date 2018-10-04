@@ -1,0 +1,37 @@
+# master
+
+digitalocean_droplet.kloudtrader_narwhal_master (remote-exec): SWMTKN-1-5p5twh4yudby22yxy1oyynyz9nnfu79omt6s2ohbcrpwe2vmro-dhbn841ydnzc9ifdstm4nffia
+digitalocean_droplet.kloudtrader_narwhal_master: Creation complete after 1m58s (ID: 110107297)
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+ipv4 = 142.93.64.226
+ipv4_private = 10.132.147.14
+
+# Add gogs ip to firewall exception: ufw allow in on eth1 proto tcp from 10.132.1.144 to any port 3000
+# node
+digitalocean_droplet.kloudtrader_narwhal_node: Creation complete after 1m23s (ID: 110108896)
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+ipv4 = 209.97.150.72
+ipv4_private = 10.132.38.187
+
+# gogs
+
+
+ipv4 = 209.97.153.82
+ipv4_private = 10.132.84.72
+
+# Vim macro to turn fish shell with a set -gx syntax into bash format
+example line: set -gx TF_VAR_do_token b728f4fbf07ed15504083b4259412afa5bfeab8cc3838b0ce295c9ba16f4db29
+Activate macro from start of line. it will perform conversion and go down a line. To convert e.g. 10 lines do: 10@q assuming macro is stored in q
+cwexport^[lxxxxt lr=0j
+
+docker node rm $(docker node list | grep Down | awk '{print $1}')
+docker service rm $(docker service list | grep '0/1' | awk '{print $1}')
+

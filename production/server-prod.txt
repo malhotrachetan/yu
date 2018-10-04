@@ -1,0 +1,22 @@
+digitalocean_droplet.kloudtrader_narwhal_master (remote-exec): SWMTKN-1-55de6wt72og04c4u2fakble93bikqknyu4j4rdsgne3tjchfmj-0ga6kxp5i827zq0ol7izyy0nf
+digitalocean_droplet.kloudtrader_narwhal_master: Creation complete after 5m52s (ID: 112893168)
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+ipv4 = 159.65.172.58
+ipv4_private = 10.132.132.87
+
+Key Signature: 4b:17:7a:2e:9e:6d:e7:0e:04:cf:e9:08:f2:ca:e6:2f
+
+gogs
+
+ipv4 = 159.65.191.72
+ipv4_private = 10.132.88.211
+
+example kloudtrader-node
+do_id = 112895250
+ipv4 = 165.227.109.62
+ipv4_private = 10.132.109.117
+
